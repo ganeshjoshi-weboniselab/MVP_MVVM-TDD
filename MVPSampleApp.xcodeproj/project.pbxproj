@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		F1405A831D93ADAD00B3D8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405A821D93ADAD00B3D8B9 /* main.m */; };
 		F1405A861D93ADAD00B3D8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405A851D93ADAD00B3D8B9 /* AppDelegate.m */; };
-		F1405A891D93ADAD00B3D8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405A881D93ADAD00B3D8B9 /* ViewController.m */; };
+		F1405A891D93ADAD00B3D8B9 /* MVPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405A881D93ADAD00B3D8B9 /* MVPSViewController.m */; };
 		F1405A8C1D93ADAD00B3D8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1405A8A1D93ADAD00B3D8B9 /* Main.storyboard */; };
 		F1405A8E1D93ADAD00B3D8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1405A8D1D93ADAD00B3D8B9 /* Assets.xcassets */; };
 		F1405A911D93ADAD00B3D8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1405A8F1D93ADAD00B3D8B9 /* LaunchScreen.storyboard */; };
 		F1405A9C1D93ADAD00B3D8B9 /* MVPSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405A9B1D93ADAD00B3D8B9 /* MVPSampleAppTests.m */; };
 		F1405AA71D93ADAD00B3D8B9 /* MVPSampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405AA61D93ADAD00B3D8B9 /* MVPSampleAppUITests.m */; };
+		F1405AB91D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405AB81D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.m */; };
+		F1405ABC1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405ABB1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.m */; };
+		F1405AC31D93D37A00B3D8B9 /* MVPSUserInfoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405AC21D93D37A00B3D8B9 /* MVPSUserInfoPresenter.m */; };
+		F1405AC71D93DB4500B3D8B9 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405AC61D93DB4500B3D8B9 /* Utility.m */; };
+		F1405ACE1D93E5A600B3D8B9 /* MVPSUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405ACD1D93E5A600B3D8B9 /* MVPSUserInfo.m */; };
+		F1405AD41D93EB6700B3D8B9 /* MVPSUserInfo+View.m in Sources */ = {isa = PBXBuildFile; fileRef = F1405AD31D93EB6700B3D8B9 /* MVPSUserInfo+View.m */; };
+		F1405ADA1D941AA800B3D8B9 /* UserInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = F1405AD91D941AA800B3D8B9 /* UserInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,8 @@
 		F1405A821D93ADAD00B3D8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1405A841D93ADAD00B3D8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1405A851D93ADAD00B3D8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1405A871D93ADAD00B3D8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1405A881D93ADAD00B3D8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1405A871D93ADAD00B3D8B9 /* MVPSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPSViewController.h; sourceTree = "<group>"; };
+		F1405A881D93ADAD00B3D8B9 /* MVPSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPSViewController.m; sourceTree = "<group>"; };
 		F1405A8B1D93ADAD00B3D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1405A8D1D93ADAD00B3D8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1405A901D93ADAD00B3D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,19 @@
 		F1405AA21D93ADAD00B3D8B9 /* MVPSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1405AA61D93ADAD00B3D8B9 /* MVPSampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPSampleAppUITests.m; sourceTree = "<group>"; };
 		F1405AA81D93ADAD00B3D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1405AB71D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPSUserInfoTableViewCell.h; sourceTree = "<group>"; };
+		F1405AB81D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPSUserInfoTableViewCell.m; sourceTree = "<group>"; };
+		F1405ABA1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPSUserInfoTableViewDataSource.h; sourceTree = "<group>"; };
+		F1405ABB1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPSUserInfoTableViewDataSource.m; sourceTree = "<group>"; };
+		F1405AC11D93D37A00B3D8B9 /* MVPSUserInfoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPSUserInfoPresenter.h; sourceTree = "<group>"; };
+		F1405AC21D93D37A00B3D8B9 /* MVPSUserInfoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPSUserInfoPresenter.m; sourceTree = "<group>"; };
+		F1405AC51D93DB4500B3D8B9 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		F1405AC61D93DB4500B3D8B9 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		F1405ACC1D93E5A600B3D8B9 /* MVPSUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPSUserInfo.h; sourceTree = "<group>"; };
+		F1405ACD1D93E5A600B3D8B9 /* MVPSUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPSUserInfo.m; sourceTree = "<group>"; };
+		F1405AD21D93EB6700B3D8B9 /* MVPSUserInfo+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVPSUserInfo+View.h"; sourceTree = "<group>"; };
+		F1405AD31D93EB6700B3D8B9 /* MVPSUserInfo+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MVPSUserInfo+View.m"; sourceTree = "<group>"; };
+		F1405AD91D941AA800B3D8B9 /* UserInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserInfo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,7 @@
 		F1405A751D93ADAC00B3D8B9 = {
 			isa = PBXGroup;
 			children = (
+				F1405AC81D93E2B300B3D8B9 /* Local */,
 				F1405A801D93ADAD00B3D8B9 /* MVPSampleApp */,
 				F1405A9A1D93ADAD00B3D8B9 /* MVPSampleAppTests */,
 				F1405AA51D93ADAD00B3D8B9 /* MVPSampleAppUITests */,
@@ -101,14 +122,10 @@
 		F1405A801D93ADAD00B3D8B9 /* MVPSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1405A841D93ADAD00B3D8B9 /* AppDelegate.h */,
-				F1405A851D93ADAD00B3D8B9 /* AppDelegate.m */,
-				F1405A871D93ADAD00B3D8B9 /* ViewController.h */,
-				F1405A881D93ADAD00B3D8B9 /* ViewController.m */,
-				F1405A8A1D93ADAD00B3D8B9 /* Main.storyboard */,
-				F1405A8D1D93ADAD00B3D8B9 /* Assets.xcassets */,
-				F1405A8F1D93ADAD00B3D8B9 /* LaunchScreen.storyboard */,
-				F1405A921D93ADAD00B3D8B9 /* Info.plist */,
+				F1405AC41D93DB1F00B3D8B9 /* Utility */,
+				F1405AB61D93B19500B3D8B9 /* Storyboards */,
+				F1405AB51D93B17B00B3D8B9 /* Use Info List */,
+				F1405AB41D93AFA200B3D8B9 /* Global */,
 				F1405A811D93ADAD00B3D8B9 /* Supporting Files */,
 			);
 			path = MVPSampleApp;
@@ -138,6 +155,110 @@
 				F1405AA81D93ADAD00B3D8B9 /* Info.plist */,
 			);
 			path = MVPSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		F1405AB41D93AFA200B3D8B9 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				F1405A841D93ADAD00B3D8B9 /* AppDelegate.h */,
+				F1405A851D93ADAD00B3D8B9 /* AppDelegate.m */,
+				F1405A8D1D93ADAD00B3D8B9 /* Assets.xcassets */,
+				F1405A921D93ADAD00B3D8B9 /* Info.plist */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		F1405AB51D93B17B00B3D8B9 /* Use Info List */ = {
+			isa = PBXGroup;
+			children = (
+				F1405ADB1D942AEF00B3D8B9 /* ViewModel */,
+				F1405ACB1D93E58B00B3D8B9 /* Model */,
+				F1405AC01D93BBBA00B3D8B9 /* Presenter */,
+				F1405ABF1D93BB6F00B3D8B9 /* Controller */,
+				F1405ABE1D93BB5A00B3D8B9 /* Data source */,
+				F1405ABD1D93BB4400B3D8B9 /* Cell */,
+			);
+			name = "Use Info List";
+			sourceTree = "<group>";
+		};
+		F1405AB61D93B19500B3D8B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F1405A8A1D93ADAD00B3D8B9 /* Main.storyboard */,
+				F1405A8F1D93ADAD00B3D8B9 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F1405ABD1D93BB4400B3D8B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1405AB71D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.h */,
+				F1405AB81D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		F1405ABE1D93BB5A00B3D8B9 /* Data source */ = {
+			isa = PBXGroup;
+			children = (
+				F1405ABA1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.h */,
+				F1405ABB1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.m */,
+			);
+			name = "Data source";
+			sourceTree = "<group>";
+		};
+		F1405ABF1D93BB6F00B3D8B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1405A871D93ADAD00B3D8B9 /* MVPSViewController.h */,
+				F1405A881D93ADAD00B3D8B9 /* MVPSViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F1405AC01D93BBBA00B3D8B9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F1405AC11D93D37A00B3D8B9 /* MVPSUserInfoPresenter.h */,
+				F1405AC21D93D37A00B3D8B9 /* MVPSUserInfoPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		F1405AC41D93DB1F00B3D8B9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F1405AC51D93DB4500B3D8B9 /* Utility.h */,
+				F1405AC61D93DB4500B3D8B9 /* Utility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		F1405AC81D93E2B300B3D8B9 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				F1405AD91D941AA800B3D8B9 /* UserInfo.json */,
+			);
+			name = Local;
+			sourceTree = "<group>";
+		};
+		F1405ACB1D93E58B00B3D8B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1405ACC1D93E5A600B3D8B9 /* MVPSUserInfo.h */,
+				F1405ACD1D93E5A600B3D8B9 /* MVPSUserInfo.m */,
+				F1405AD21D93EB6700B3D8B9 /* MVPSUserInfo+View.h */,
+				F1405AD31D93EB6700B3D8B9 /* MVPSUserInfo+View.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1405ADB1D942AEF00B3D8B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1405ADA1D941AA800B3D8B9 /* UserInfo.json in Resources */,
 				F1405A911D93ADAD00B3D8B9 /* LaunchScreen.storyboard in Resources */,
 				F1405A8E1D93ADAD00B3D8B9 /* Assets.xcassets in Resources */,
 				F1405A8C1D93ADAD00B3D8B9 /* Main.storyboard in Resources */,
@@ -270,8 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1405A891D93ADAD00B3D8B9 /* ViewController.m in Sources */,
+				F1405A891D93ADAD00B3D8B9 /* MVPSViewController.m in Sources */,
+				F1405AC31D93D37A00B3D8B9 /* MVPSUserInfoPresenter.m in Sources */,
+				F1405ACE1D93E5A600B3D8B9 /* MVPSUserInfo.m in Sources */,
+				F1405AD41D93EB6700B3D8B9 /* MVPSUserInfo+View.m in Sources */,
 				F1405A861D93ADAD00B3D8B9 /* AppDelegate.m in Sources */,
+				F1405AB91D93B46500B3D8B9 /* MVPSUserInfoTableViewCell.m in Sources */,
+				F1405AC71D93DB4500B3D8B9 /* Utility.m in Sources */,
+				F1405ABC1D93B4F500B3D8B9 /* MVPSUserInfoTableViewDataSource.m in Sources */,
 				F1405A831D93ADAD00B3D8B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
