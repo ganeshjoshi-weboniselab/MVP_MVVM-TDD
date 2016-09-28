@@ -10,8 +10,15 @@
 #import "Utility.h"
 #import "MVPSUserInfo.h"
 #import "MVPSUserInfo+View.h"
+#import "MVPSUserInfoViewModel.h"
 
 #define FileName @"UserInfo"
+
+@interface MVPSUserInfoPresenter ()
+{
+    MVPSUserInfoViewModel *_userInfoViewModel;
+}
+@end
 
 @implementation MVPSUserInfoPresenter
 
@@ -25,7 +32,7 @@
     {
         self.delegate = _delegate;
         
-        [self getAndParseUserInfo];
+        [self setUpViewModelAndGetUserInfoList];
     }
     
     return self;
@@ -33,30 +40,13 @@
 
 #pragma mark - Parse user info
 
-- (void) getAndParseUserInfo
+- (void) setUpViewModelAndGetUserInfoList
 {
-    NSArray * allUserInfoList = [Utility getJsonFromFile:FileName];
-    
-    NSMutableArray * userInfoList = [NSMutableArray new];
-    
-    for(NSDictionary *userInfoResponse in allUserInfoList)
-    {
-        MVPSUserInfo * userInfo = [MVPSUserInfo new];
-        
-        [userInfo loadUserInfo:userInfoResponse];
-        
-        [userInfoList addObject:userInfo];
-    }
-    
-    [self finishLoadingUserInfo:userInfoList];
-}
-
-- (void) finishLoadingUserInfo:(NSArray *)userInfoList
-{
-    _userinfoList = userInfoList;
+    _userInfoViewModel  = [MVPSUserInfoViewModel new];
+    _userinfoList       =  [_userInfoViewModel loadUserInfoFromRespnose:[Utility getJsonFromFile:FileName]];
     
     if(self.delegate && [self.delegate respondsToSelector:@selector(didFinishLoadingUserInfoList:)])
-        [self.delegate didFinishLoadingUserInfoList:userInfoList];
+        [self.delegate didFinishLoadingUserInfoList:_userinfoList];
 }
 
 #pragma mark End

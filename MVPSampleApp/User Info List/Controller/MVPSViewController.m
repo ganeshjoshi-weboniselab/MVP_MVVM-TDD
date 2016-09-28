@@ -39,8 +39,7 @@
 }
 - (void) setPresenter
 {
-    MVPSUserInfoPresenter * presenter = [[MVPSUserInfoPresenter alloc] initWithDelegate:self];
-    _presenter = presenter;
+    _presenter = [[MVPSUserInfoPresenter alloc] initWithDelegate:self];
 }
 
 #pragma mark End

@@ -25,84 +25,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MVPSampleAppTests/MVPSampleAppTests.m"
-            timestampString = "496323521.37979"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "-testNameWordLimit"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MVPSampleAppTests testNameWordLimit]"
-                  moduleName = "MVPSampleAppTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/webonise/Desktop/MVPSampleApp/MVPSampleAppTests/MVPSampleAppTests.m"
-                  timestampString = "496322650.864591"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "457">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MVPSampleAppTests testNameWordLimit]"
-                  moduleName = "MVPSampleAppTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/webonise/Desktop/MVPSampleApp/MVPSampleAppTests/MVPSampleAppTests.m"
-                  timestampString = "496322650.864793"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "936">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MVPSampleAppTests testNameWordLimit]"
-                  moduleName = "MVPSampleAppTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/webonise/Desktop/MVPSampleApp/MVPSampleAppTests/MVPSampleAppTests.m"
-                  timestampString = "496322650.864969"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "1162">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MVPSampleAppTests testNameWordLimit]"
-                  moduleName = "MVPSampleAppTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/webonise/Desktop/MVPSampleApp/MVPSampleAppTests/MVPSampleAppTests.m"
-                  timestampString = "496322650.865137"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67"
-                  offsetFromSymbolStart = "1299">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "MVPSampleApp/Utility.m"
             timestampString = "496318959.100086"
             startingColumnNumber = "9223372036854775807"
@@ -119,13 +41,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MVPSampleAppTests/MVPSampleAppTests.m"
-            timestampString = "496323521.37979"
+            filePath = "MVPSampleApp/MVPSUserInfoViewModel.m"
+            timestampString = "496738529.379136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "-testEmailAlphabetCase"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-loadUserInfoFromRespnose:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVPSampleApp/Utility.m"
+            timestampString = "496738565.55983"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "+getJsonFromFile:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MVPSampleApp/Utility.m"
+            timestampString = "496738568.688215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "+getJsonFromFile:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

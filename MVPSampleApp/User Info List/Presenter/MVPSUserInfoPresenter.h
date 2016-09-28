@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol MVPSUserInfoPresenterDelegate <NSObject>
+
+- (void) didFinishLoadingUserInfoList:(NSArray *) userInfoList;
+
+@end
+
 @interface MVPSUserInfoPresenter : NSObject
 
 - (instancetype)initWithDelegate:(id)delegate;
@@ -15,11 +21,5 @@
 @property id delegate;
 
 @property (nonatomic, strong) NSArray *userinfoList;
-
-@end
-
-@protocol MVPSUserInfoPresenterDelegate <NSObject>
-
-- (void) didFinishLoadingUserInfoList:(NSArray *) userInfoList;
 
 @end
